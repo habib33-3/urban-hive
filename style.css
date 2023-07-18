@@ -3,11 +3,18 @@
 * {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  text-decoration: none;
 }
-
+header {
+  background-color: #9376e0;
+}
 .nav-container {
   border: 1px solid red;
   min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .logo-container {
@@ -32,6 +39,22 @@
 }
 
 .nav-item-container {
-  border: 1px solid blue;
-  width: 50px;
+  /* border: 1px solid blue; */
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-item-container a {
+  font-size: 25px;
+  color: white;
+}
+
+#login-btn {
+  background-color: #e893cf;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: black;
 }
