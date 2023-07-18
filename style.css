@@ -9,7 +9,6 @@ header {
   background-color: #9376e0;
 }
 .nav-container {
-  border: 1px solid red;
   min-height: 50px;
   display: flex;
   align-items: center;
@@ -18,13 +17,11 @@ header {
 }
 
 .logo-container {
-  border: 1px solid green;
   display: flex;
   width: 50%;
 }
 
 .logo-container img {
-  border: 1px solid red;
   width: 100px;
   object-fit: cover;
   margin-right: 20px;
@@ -57,4 +54,5 @@ header {
   font-weight: 700;
   border-radius: 5px;
   color: black;
+  text-align: center;
 }
